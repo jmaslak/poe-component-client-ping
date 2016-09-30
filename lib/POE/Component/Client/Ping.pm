@@ -989,7 +989,7 @@ request.
 This is the number of seconds that elapsed between the ICMP echo
 request's transmission and its corresponding response's receipt.  It's
 a real number. This is purely the trip time and does *not* include any
-time spent queueing if the system's parallelism limit caused the ping
+time spent queuing if the system's parallelism limit caused the ping
 transmission to be delayed.
 
 =item C<$reply_time>
